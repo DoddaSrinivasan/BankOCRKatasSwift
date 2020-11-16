@@ -1,9 +1,8 @@
 version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
 options: "df195ee3c11fa51d55d07e5dc6e8d2c3"
-build_time: [1605541060, 809005000]
+build_time: [1605541080, 269977000]
 inputs:
   "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/OCRParsers/SevenSegmentNumberParser/SevenSegmentNumber.swift": !dirty [1605533635, 242708382]
-  "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/ResourseReader.swift": !dirty [1605531632, 946281370]
   "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/OCRParsers/MultiLineSevenSegmentNumberParser/MultiLineSevenSegmentParser.swift": !dirty [1605537846, 143275447]
   "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/OCRParsers/SevenSegmentNumberParser/SevenSegmentNumberParserError.swift": !dirty [1605537641, 125159289]
   "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/OCRParsers/SevenSegmentNumberParser/SevenSegment.swift": !dirty [1605537583, 876055125]
@@ -11,4 +10,4 @@ inputs:
   "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/OCRParsers/SevenSegmentNumberParser/SevenSegmentDigit.swift": !dirty [1605536890, 304688974]
   "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/Utils/Array+Extension.swift": !dirty [1605534739, 17349219]
   "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/Utils/String+Extensions.swift": !dirty [1605537025, 892863487]
-  "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/main.swift": !dirty [1605541056, 795298357]
+  "/Users/srinivasandodda/Documents/srini/projects/swift/bank-ocr-katas/Sources/bank-ocr-katas/main.swift": !dirty [1605541070, 646227076]
