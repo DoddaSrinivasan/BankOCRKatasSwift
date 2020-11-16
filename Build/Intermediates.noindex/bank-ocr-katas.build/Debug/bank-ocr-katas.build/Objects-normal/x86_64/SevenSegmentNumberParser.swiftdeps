@@ -1,0 +1,598 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SevenSegmentNumberParser"
+provides-nominal:
+- "14bank_ocr_katas24SevenSegmentNumberParserC"
+provides-member:
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", ""]
+provides-dynamic-lookup:
+- "bottomSegments"
+- "digit"
+- "middleSegments"
+- "number"
+- "segmentAt"
+- "segmentsWith"
+- "topSegments"
+depends-top-level:
+- !private "..<"
+- !private "??"
+- "Array"
+- "AssignmentPrecedence"
+- "Character"
+- "Constants"
+- "ExtendedGraphemeClusterType"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "SevenSegment"
+- "SevenSegmentDigit"
+- "SevenSegmentNumber"
+- "SevenSegmentNumberParser"
+- !private "SevenSegmentNumberParserError"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- !private "bottomSegments"
+- "digit"
+- !private "middleSegments"
+- !private "segmentAt"
+- !private "segmentsWith"
+- !private "topSegments"
+- !private "~="
+depends-member:
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "count"]
+- !private ["Sa", "get"]
+- !private ["Sa", "init"]
+- !private ["Sa", "joined"]
+- !private ["Sa", "map"]
+- !private ["Sa", "max"]
+- !private ["Sa", "sorted"]
+- !private ["SK", ""]
+- !private ["SK", "compactMap"]
+- !private ["SK", "count"]
+- !private ["SK", "get"]
+- !private ["SK", "group"]
+- !private ["SK", "init"]
+- !private ["SK", "joined"]
+- !private ["SK", "lowercased"]
+- !private ["SK", "map"]
+- !private ["SK", "max"]
+- !private ["SK", "sorted"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "get"]
+- !private ["s7CVarArgP", "group"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "joined"]
+- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "sorted"]
+- !private ["Sl", ""]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "count"]
+- !private ["Sl", "get"]
+- !private ["Sl", "group"]
+- !private ["Sl", "init"]
+- !private ["Sl", "joined"]
+- !private ["Sl", "lowercased"]
+- !private ["Sl", "map"]
+- !private ["Sl", "max"]
+- !private ["Sl", "sorted"]
+- !private ["14bank_ocr_katas12SevenSegmentC6ColumnO", "RawValue"]
+- !private ["14bank_ocr_katas12SevenSegmentC6ColumnO", ""]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "centre"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "leading"]
+- !private ["14bank_ocr_katas12SevenSegmentC6ColumnO", "rawValue"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "trailing"]
+- !private ["SL", ""]
+- !private ["SL", "group"]
+- !private ["SL", "lowercased"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "get"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "joined"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "max"]
+- !private ["10Foundation15ContiguousBytesP", "sorted"]
+- !private ["s28CustomDebugStringConvertibleP", "a"]
+- !private ["s28CustomDebugStringConvertibleP", "b"]
+- !private ["s28CustomDebugStringConvertibleP", "c"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "d"]
+- !private ["s28CustomDebugStringConvertibleP", "e"]
+- !private ["s28CustomDebugStringConvertibleP", "f"]
+- !private ["s28CustomDebugStringConvertibleP", "g"]
+- !private ["s28CustomDebugStringConvertibleP", "get"]
+- !private ["s28CustomDebugStringConvertibleP", "group"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "joined"]
+- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "sorted"]
+- !private ["s17CustomReflectableP", "a"]
+- !private ["s17CustomReflectableP", "b"]
+- !private ["s17CustomReflectableP", "c"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "d"]
+- !private ["s17CustomReflectableP", "e"]
+- !private ["s17CustomReflectableP", "f"]
+- !private ["s17CustomReflectableP", "g"]
+- !private ["s17CustomReflectableP", "get"]
+- !private ["s17CustomReflectableP", "group"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "joined"]
+- !private ["s17CustomReflectableP", "lowercased"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "sorted"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "get"]
+- !private ["s23CustomStringConvertibleP", "group"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "joined"]
+- !private ["s23CustomStringConvertibleP", "lowercased"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "sorted"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "get"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "joined"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "max"]
+- !private ["10Foundation12DataProtocolP", "sorted"]
+- !private ["Se", "a"]
+- !private ["Se", "b"]
+- !private ["Se", "c"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "count"]
+- !private ["Se", "d"]
+- !private ["Se", "e"]
+- !private ["Se", "f"]
+- !private ["Se", "g"]
+- !private ["Se", "get"]
+- !private ["Se", "group"]
+- !private ["Se", "init"]
+- !private ["Se", "joined"]
+- !private ["Se", "lowercased"]
+- !private ["Se", "map"]
+- !private ["Se", "max"]
+- !private ["Se", "sorted"]
+- !private ["SE", "a"]
+- !private ["SE", "b"]
+- !private ["SE", "c"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "count"]
+- !private ["SE", "d"]
+- !private ["SE", "e"]
+- !private ["SE", "f"]
+- !private ["SE", "g"]
+- !private ["SE", "get"]
+- !private ["SE", "group"]
+- !private ["SE", "init"]
+- !private ["SE", "joined"]
+- !private ["SE", "lowercased"]
+- !private ["SE", "map"]
+- !private ["SE", "max"]
+- !private ["SE", "sorted"]
+- ["SQ", ""]
+- !private ["SQ", "a"]
+- !private ["SQ", "b"]
+- ["SQ", "bottom"]
+- !private ["SQ", "c"]
+- ["SQ", "centre"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "count"]
+- !private ["SQ", "d"]
+- !private ["SQ", "e"]
+- !private ["SQ", "f"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "g"]
+- !private ["SQ", "get"]
+- !private ["SQ", "group"]
+- !private ["SQ", "init"]
+- !private ["SQ", "joined"]
+- ["SQ", "leading"]
+- !private ["SQ", "lowercased"]
+- !private ["SQ", "map"]
+- !private ["SQ", "max"]
+- ["SQ", "middle"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "sorted"]
+- !private ["SQ", "success"]
+- ["SQ", "top"]
+- ["SQ", "trailing"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "invalidCharacter"]
+- !private ["s5ErrorP", "invalidCharacters"]
+- !private ["s5ErrorP", "nonMatchingDigit"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "get"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "joined"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "max"]
+- !private ["s25ExpressibleByArrayLiteralP", "sorted"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "group"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s23ExpressibleByNilLiteralP", "a"]
+- !private ["s23ExpressibleByNilLiteralP", "b"]
+- !private ["s23ExpressibleByNilLiteralP", "c"]
+- !private ["s23ExpressibleByNilLiteralP", "d"]
+- !private ["s23ExpressibleByNilLiteralP", "e"]
+- !private ["s23ExpressibleByNilLiteralP", "f"]
+- !private ["s23ExpressibleByNilLiteralP", "g"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "group"]
+- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "group"]
+- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "group"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
+- !private ["SH", ""]
+- !private ["SH", "a"]
+- !private ["SH", "b"]
+- ["SH", "bottom"]
+- !private ["SH", "c"]
+- ["SH", "centre"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "count"]
+- !private ["SH", "d"]
+- !private ["SH", "e"]
+- !private ["SH", "f"]
+- !private ["SH", "failure"]
+- !private ["SH", "g"]
+- !private ["SH", "get"]
+- !private ["SH", "group"]
+- !private ["SH", "init"]
+- !private ["SH", "joined"]
+- ["SH", "leading"]
+- !private ["SH", "lowercased"]
+- !private ["SH", "map"]
+- !private ["SH", "max"]
+- ["SH", "middle"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "sorted"]
+- !private ["SH", "success"]
+- ["SH", "top"]
+- ["SH", "trailing"]
+- !private ["10Foundation14LocalizedErrorP", "invalidCharacter"]
+- !private ["10Foundation14LocalizedErrorP", "invalidCharacters"]
+- !private ["10Foundation14LocalizedErrorP", "nonMatchingDigit"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "group"]
+- !private ["s25LosslessStringConvertibleP", "lowercased"]
+- !private ["s10MirrorPathP", "group"]
+- !private ["s10MirrorPathP", "lowercased"]
+- !private ["SM", ""]
+- !private ["SM", "compactMap"]
+- !private ["SM", "count"]
+- !private ["SM", "get"]
+- !private ["SM", "init"]
+- !private ["SM", "joined"]
+- !private ["SM", "map"]
+- !private ["SM", "max"]
+- !private ["SM", "sorted"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "get"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "joined"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "max"]
+- !private ["10Foundation19MutableDataProtocolP", "sorted"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "group"]
+- !private ["So8NSCodingP", "lowercased"]
+- !private ["So9NSCopyingP", "group"]
+- !private ["So9NSCopyingP", "lowercased"]
+- !private ["So21NSItemProviderReadingP", "group"]
+- !private ["So21NSItemProviderReadingP", "lowercased"]
+- !private ["So21NSItemProviderWritingP", "group"]
+- !private ["So21NSItemProviderWritingP", "lowercased"]
+- !private ["So16NSMutableCopyingP", "group"]
+- !private ["So16NSMutableCopyingP", "lowercased"]
+- !private ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "group"]
+- !private ["So8NSObjectC", "lowercaseStringWithLocale"]
+- !private ["So8NSObjectC", "lowercased"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "group"]
+- !private ["So8NSObjectP", "lowercaseStringWithLocale"]
+- !private ["So8NSObjectP", "lowercased"]
+- !private ["So14NSSecureCodingP", "group"]
+- !private ["So14NSSecureCodingP", "lowercased"]
+- !private ["So8NSStringC", "group"]
+- !private ["So8NSStringC", "lowercased"]
+- !private ["Sq", "a"]
+- !private ["Sq", "b"]
+- !private ["Sq", "c"]
+- !private ["Sq", "d"]
+- !private ["Sq", "e"]
+- !private ["Sq", "f"]
+- !private ["Sq", "g"]
+- !private ["Sk", ""]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "count"]
+- !private ["Sk", "get"]
+- !private ["Sk", "init"]
+- !private ["Sk", "joined"]
+- !private ["Sk", "map"]
+- !private ["Sk", "max"]
+- !private ["Sk", "sorted"]
+- !private ["Sn", "map"]
+- !private ["SX", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "count"]
+- !private ["Sm", "get"]
+- !private ["Sm", "group"]
+- !private ["Sm", "init"]
+- !private ["Sm", "joined"]
+- !private ["Sm", "lowercased"]
+- !private ["Sm", "map"]
+- !private ["Sm", "max"]
+- !private ["Sm", "sorted"]
+- !private ["SY", "a"]
+- !private ["SY", "b"]
+- ["SY", "bottom"]
+- !private ["SY", "c"]
+- ["SY", "centre"]
+- !private ["SY", "d"]
+- !private ["SY", "e"]
+- !private ["SY", "f"]
+- !private ["SY", "g"]
+- !private ["SY", "init"]
+- ["SY", "leading"]
+- ["SY", "middle"]
+- !private ["SY", "rawValue"]
+- ["SY", "top"]
+- ["SY", "trailing"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["14bank_ocr_katas12SevenSegmentC3RowO", "RawValue"]
+- !private ["14bank_ocr_katas12SevenSegmentC3RowO", ""]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "bottom"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "middle"]
+- !private ["14bank_ocr_katas12SevenSegmentC3RowO", "rawValue"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "top"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "RawValue"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", ""]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "a"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "b"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "c"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "d"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "e"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "f"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "g"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "rawValue"]
+- !private ["ST", "Element"]
+- !private ["ST", ""]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- !private ["ST", "get"]
+- !private ["ST", "group"]
+- !private ["ST", "init"]
+- !private ["ST", "joined"]
+- !private ["ST", "lowercased"]
+- !private ["ST", "map"]
+- !private ["ST", "max"]
+- !private ["ST", "sorted"]
+- ["14bank_ocr_katas12SevenSegmentC", "Column"]
+- ["14bank_ocr_katas12SevenSegmentC", "Row"]
+- ["14bank_ocr_katas12SevenSegmentC", "Segment"]
+- !private ["14bank_ocr_katas17SevenSegmentDigitO", "RawValue"]
+- !private ["14bank_ocr_katas17SevenSegmentDigitO", ""]
+- !private ["14bank_ocr_katas17SevenSegmentDigitO", "init"]
+- !private ["14bank_ocr_katas24SevenSegmentNumberParserC", "Array"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "Character"]
+- !private ["14bank_ocr_katas24SevenSegmentNumberParserC", "Constants"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "Int"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "SevenSegment"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "SevenSegmentDigit"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "SevenSegmentNumber"]
+- !private ["14bank_ocr_katas24SevenSegmentNumberParserC", "SevenSegmentNumberParserError"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "String"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", ""]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "bottomSegments"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "deinit"]
+- !private ["14bank_ocr_katas24SevenSegmentNumberParserC", "digit"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "init"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "middleSegments"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "number"]
+- !private ["14bank_ocr_katas24SevenSegmentNumberParserC", "segmentAt"]
+- !private ["14bank_ocr_katas24SevenSegmentNumberParserC", "segmentsWith"]
+- ["14bank_ocr_katas24SevenSegmentNumberParserC", "topSegments"]
+- !private ["14bank_ocr_katas29SevenSegmentNumberParserErrorO", ""]
+- !private ["14bank_ocr_katas29SevenSegmentNumberParserErrorO", "invalidCharacter"]
+- !private ["14bank_ocr_katas29SevenSegmentNumberParserErrorO", "invalidCharacters"]
+- !private ["14bank_ocr_katas29SevenSegmentNumberParserErrorO", "nonMatchingDigit"]
+- !private ["SS", "group"]
+- !private ["SS", "lowercased"]
+- !private ["Sy", "group"]
+- !private ["Sy", "lowercased"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "group"]
+- !private ["s16TextOutputStreamP", "lowercased"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "group"]
+- !private ["s20TextOutputStreamableP", "lowercased"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "get"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "joined"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "max"]
+- !private ["s14_ArrayProtocolP", "sorted"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "group"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "get"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "joined"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "max"]
+- !private ["s24_DestructorSafeContainerP", "sorted"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "group"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "group"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "group"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "get"]
+- !private ["s19_HasContiguousBytesP", "group"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "joined"]
+- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "max"]
+- !private ["s19_HasContiguousBytesP", "sorted"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "get"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "group"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "joined"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sorted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "group"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "group"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "_ObjectiveCType"]
+- !private ["s21_ObjectiveCBridgeableP", "_bridgeToObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_conditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_forceBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
+- !private ["s21_ObjectiveCBridgeableP", "a"]
+- !private ["s21_ObjectiveCBridgeableP", "b"]
+- !private ["s21_ObjectiveCBridgeableP", "c"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "d"]
+- !private ["s21_ObjectiveCBridgeableP", "e"]
+- !private ["s21_ObjectiveCBridgeableP", "f"]
+- !private ["s21_ObjectiveCBridgeableP", "g"]
+- !private ["s21_ObjectiveCBridgeableP", "get"]
+- !private ["s21_ObjectiveCBridgeableP", "group"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "joined"]
+- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "sorted"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- "14bank_ocr_katas12SevenSegmentC6ColumnO"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- "SY"
+- !private "s6ResultO"
+- "14bank_ocr_katas12SevenSegmentC3RowO"
+- !private "14bank_ocr_katas12SevenSegmentC0E0O"
+- !private "ST"
+- "14bank_ocr_katas12SevenSegmentC"
+- !private "14bank_ocr_katas17SevenSegmentDigitO"
+- "14bank_ocr_katas24SevenSegmentNumberParserC"
+- !private "14bank_ocr_katas29SevenSegmentNumberParserErrorO"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c7be6e3428a016090eef975772888084"

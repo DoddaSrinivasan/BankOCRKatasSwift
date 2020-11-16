@@ -1,0 +1,158 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SevenSegment"
+provides-nominal:
+- "14bank_ocr_katas12SevenSegmentC"
+- "14bank_ocr_katas12SevenSegmentC0E0O"
+- "14bank_ocr_katas12SevenSegmentC3RowO"
+- "14bank_ocr_katas12SevenSegmentC6ColumnO"
+provides-member:
+- ["14bank_ocr_katas12SevenSegmentC", ""]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", ""]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", ""]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "SevenSegment"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "=="]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "Default_RawValue"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "RawValue"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", ""]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "_Default_RawValue"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "_rawHashValue"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "centre"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "hash"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "hashValue"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "init"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "leading"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "rawValue"]
+- ["14bank_ocr_katas12SevenSegmentC6ColumnO", "trailing"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "=="]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "Default_RawValue"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "RawValue"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", ""]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "_Default_RawValue"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "_rawHashValue"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "bottom"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "hash"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "hashValue"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "init"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "middle"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "rawValue"]
+- ["14bank_ocr_katas12SevenSegmentC3RowO", "top"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "=="]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "Default_RawValue"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "RawValue"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", ""]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "_Default_RawValue"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "_findStringSwitchCase"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "_rawHashValue"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "a"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "b"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "c"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "d"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "e"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "f"]
+- !private ["14bank_ocr_katas12SevenSegmentC0E0O", "findStringSwitchCase"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "g"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "hash"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "hashValue"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "init"]
+- ["14bank_ocr_katas12SevenSegmentC0E0O", "rawValue"]
+- ["14bank_ocr_katas12SevenSegmentC", "Column"]
+- ["14bank_ocr_katas12SevenSegmentC", "Int"]
+- ["14bank_ocr_katas12SevenSegmentC", "Row"]
+- ["14bank_ocr_katas12SevenSegmentC", "Segment"]
+- ["14bank_ocr_katas12SevenSegmentC", "String"]
+- !private ["14bank_ocr_katas12SevenSegmentC", "_findStringSwitchCase"]
+- ["14bank_ocr_katas12SevenSegmentC", "deinit"]
+- !private ["14bank_ocr_katas12SevenSegmentC", "findStringSwitchCase"]
+- ["14bank_ocr_katas12SevenSegmentC", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+depends-nominal:
+- "14bank_ocr_katas12SevenSegmentC6ColumnO"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "SY"
+- "14bank_ocr_katas12SevenSegmentC3RowO"
+- "14bank_ocr_katas12SevenSegmentC0E0O"
+- "14bank_ocr_katas12SevenSegmentC"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "58145193de0d604b5a9f42f9b28969b2"
